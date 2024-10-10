@@ -98,7 +98,7 @@ public class GPSUtils {
 		int secs;
 		double speed;
 		
-		int deltaTime = gpspoint2.getTime() - gpspoint1.getTime();
+		double deltaTime = gpspoint2.getTime() - gpspoint1.getTime();
 		
 		return speed = distance(gpspoint1, gpspoint2) / deltaTime;
 
